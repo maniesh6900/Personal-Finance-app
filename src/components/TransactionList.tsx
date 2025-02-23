@@ -40,9 +40,7 @@ console.log(res.status);
         >delete</button>
         </div>
       ))}
-    <div>
-            
-    </div> 
+
 
     <div>
         <MonthlyExpensesChart data={transactions} />

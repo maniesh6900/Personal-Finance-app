@@ -2,6 +2,8 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'r
 
 
 const BudgetVsActualChart = ({ budgetData, actualData }: { budgetData: any[]; actualData: any[] }) => {
+  console.log(actualData);
+  
   return (
     <LineChart width={500} height={300} data={budgetData}>
       <CartesianGrid strokeDasharray="3 3" />
